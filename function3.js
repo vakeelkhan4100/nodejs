@@ -123,3 +123,45 @@
 //   }
 // );
 // console.log(ask);
+let num = 1;
+// for (let i = 5; i >= 1; i--) {
+//   console.log(`${num++}`.repeat(i));
+// }
+
+// let str = "my name is vakel khan ";
+// let str1 = "";
+// let index = 0;
+// for (let num of str) {
+//   if (index % 2 === 0) {
+//     str1 = str1 + " " + num.toLowerCase();
+//   } else {
+//     str1 = str1+ " "+ num.toLocaleUpperCase
+//   }
+// }
+
+// let str1 = "wecode";
+// let str2 = "Khan";
+// let str1upp = str1.toUpperCase();
+// let str2low = str2.toLocaleLowerCase();
+// console.log(str1upp + " " + str2low);
+
+// let str = "my name is khan";
+// if (str.length > 10) {
+//   let num = " hello" + " ".concat(str);
+//   console.log(num);
+// } else {
+//   let num2 = str.concat(" ", "word");
+//   console.log(num2);
+// }
+
+// let str1 = "vakeel";
+// let str2 = "khan";
+// if (str1.length > str2.length) {
+//   console.log(str1 + " " + str2);
+// } else {
+//   console.log(str2 + " " + str1);
+// }
+
+let str = "my name is khan";
+let check = str.includes("khan");
+console.log(str.replace("khan", "vakeel"));
