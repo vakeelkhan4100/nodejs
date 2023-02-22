@@ -61,9 +61,9 @@
 
 # 5. Take a string and now ask for a character from the user. Now find total count of that character in the string
 
--     My name is wecode academy;
--     a
--     3
+- My name is wecode academy;
+- a
+- 3
 
 ```
  let str = "My name is wecode academy;";
