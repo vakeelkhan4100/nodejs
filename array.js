@@ -3,7 +3,7 @@
 // 10. Find second highest number from array
 // 11. find second lowest number from array
 // 12. Find average of the array
-// 13. Find which number is repeated most number of the times in the array, also tell number along with coun
+//
 
 // 1. Find max number from array
 // let arr = [3, 5, 70, 30, 40];
@@ -80,3 +80,32 @@
 // let average = 0;
 // for (let x = 0; x <= arr.length; x++) {}
 // console.log(repeated);
+
+// const arr = ["a", "a", "a", "b", "b", "b", "b", "c", "c", "c"];
+// let count = 0;
+
+// function countValues(array, countItem) {
+//   array.forEach((itm) => {
+//     if (itm == countItem) count++;
+//   });
+//   console.log(`${countItem} ${count}`);
+// }
+// countValues(arr, "a");
+
+// 7. find if a number is present more than 3 times in the array or not ?
+const arr = [1, 1, 1, 2, 2, 2, 2, 2, 4, 4, 4, 5, 5, 5, 5, 2, 2];
+let count = 0;
+function countvalue(arr, value) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) {
+      count++;
+    }
+  }
+  if (count > 3) {
+    console.log("yes");
+  } else {
+    console.log("no");
+  }
+}
+countvalue(arr, 5);
+// console.log(count);

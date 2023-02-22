@@ -52,6 +52,28 @@
 ```
   let arr = [201, 2,3,4, 5, 6, 7, 7, 8, 1
  console. log (arr [0]);
+
+```
+
+# 7. find if a number is present more than 3 times in the array or not ?
+
+```
+const arr = [1, 1, 1, 2, 2, 2, 2, 2, 4, 4, 4, 5, 5, 5, 5, 2, 2];
+let count = 0;
+function countvalue(arr, value) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) {
+      count++;
+    }
+  }
+  if (count > 3) {
+    console.log("yes");
+  } else {
+    console.log("no");
+  }
+}
+countvalue(arr, 5);
+// console.log(count);
 ```
 
 # 8. Find total count of odd numbers in array
@@ -61,7 +83,7 @@
  let arr = [10,21, 2, 2, 12, 31]
  for(let i = 0;i<=arr. length; i++ ){
  if(arr [i1%2===1){
- sum = sum +arr[i]
+ sum = sum +arr[i]}
  console. log (sum);
 ```
 
