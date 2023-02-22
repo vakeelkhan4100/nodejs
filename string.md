@@ -1,6 +1,6 @@
 # 1. Count number of words in a Text after splitting it by any word
 
--     Hello Wecode Acacdemy
+- Hello Wecode Acacdemy
 - space se split, 3 words
 
 ```
