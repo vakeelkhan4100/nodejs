@@ -114,3 +114,34 @@
 // let str = "My code is wecode and wecode Jhotwara, Jaipur";
 // let Replace = str.replace(/code/g, "todd");
 // console.log(Replace);
+
+// let str = "My name is vakeel khan ";
+// let str1 = str.split(" ");
+// let sum = "";
+// for (let i = 0; i <= str1.length; i++) {
+//   let a = str[i][0].toUpperCase();
+//   console.log(a);
+//   //   let slice = str1.slice(0);
+//   //  console.log(slice);
+// }
+// console.log(a);
+
+// let str = "aabaa";
+// let str1 = "";
+// for (let i = str.length - 1; i >= 0; i--) {
+//   str1 = str1 + str[i];
+// }
+// if (str === str1) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+
+// let arr = [2, 10, 20, 30, 10, 1, 12, 2, 10, 23, 34];
+// let min = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (min > arr[i]) {
+//     min = arr[i];
+//   }
+// }
+// console.log(min);
